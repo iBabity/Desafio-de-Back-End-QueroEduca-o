@@ -1,0 +1,11 @@
+### Listar todas as ofertas
+GET http://localhost:3000/offers
+
+### Filtrar por nível e tipo
+GET http://localhost:3000/offers?level=bacharelado&kind=presencial&page=1&limit=5
+
+### Filtrar por nome do curso
+GET http://localhost:3000/offers?search=Direito&page=1&limit=5
+
+### Filtrar por faixa de preço
+GET http://localhost:3000/offers?minPrice=200&maxPrice=300&page=1&limit=5
