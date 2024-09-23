@@ -25,27 +25,28 @@ Avaliação 🌟.
 Permite configurar a quantidade de itens por página e navegar entre as páginas.
 6. Retorno de Propriedades Selecionadas
 Permite selecionar quais propriedades retornar na consulta (ex: courseName).
+
 Como Usar
 
 Utilize um cliente HTTP (como Postman ou curl) para fazer requisições ao endpoint:
 bash
-Copiar código
+
 http://localhost:3000/offers
 Exemplos de Requisições
 Listar todas as ofertas:
 
 bash
-Copiar código
+
 GET http://localhost:3000/offers
 Filtrar por nível e tipo:
 
 bash
-Copiar código
+
 GET http://localhost:3000/offers?level=bacharelado&kind=presencial
 Ordenar e paginar:
 
 bash
-Copiar código
+
 GET http://localhost:3000/offers?sort=rating&page=2&limit=5
 Selecionar propriedades:
 
