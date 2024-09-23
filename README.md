@@ -51,8 +51,9 @@ GET http://localhost:3000/offers?sort=rating&page=2&limit=5
 Selecionar propriedades:
 
 bash
-Copiar código
+
 GET http://localhost:3000/offers?fields=courseName,rating
+
 Tecnologias Usadas
 Node.js
 Express
